@@ -3,20 +3,33 @@
 复制下面内容到host 
 
 1.0.0.1 api.map.baidu.com
+
 1.0.0.1 ps.map.baidu.com
+
 1.0.0.1 sv.map.baidu.com
+
 1.0.0.1 offnavi.map.baidu.com
+
 1.0.0.1 newvector.map.baidu.com
+
 1.0.0.1 ulog.imap.baidu.com
+
 1.0.0.1 newloc.map.n.shifen.com
 
 ::2 api.map.baidu.com
+
 ::2 ps.map.baidu.com
+
 ::2 sv.map.baidu.com
+
 ::2 offnavi.map.baidu.com
+
 ::2 newvector.map.baidu.com
+
 ::2 ulog.imap.baidu.com
+
 ::2 newloc.map.n.shifen.com
+
 
 以上写法会让连接超时等待，如果你希望连接立即拒绝断开，那么把"1.0.0.1"改为"0.0.0.0"，把"::2"改为"::"即可
 
